@@ -11,7 +11,12 @@ export default function TextInput() {
 
   return (
     <div>
-      <input type="text" value={text} onChange={onChange} />
+      <input
+        placeholder="type something"
+        type="text"
+        value={text}
+        onChange={onChange}
+      />
       <br />
       Echo: {text}
     </div>
